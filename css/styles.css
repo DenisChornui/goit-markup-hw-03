@@ -59,7 +59,7 @@ button {
     cursor: pointer;
 }
 
-.conteiner {
+.container {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -147,7 +147,7 @@ button {
     color: var(--activ-cl);
 }
 
-.header-conteiner {
+.header-container {
     display: flex;
     align-items: center;
 }
