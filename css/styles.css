@@ -1,0 +1,265 @@
+:root {
+    /* Color */
+    --main-txt-cl: #434455;
+    --background-cl: #FFFFFF;
+    --link-cl: #2E2F42;
+    --color-cloud: #f4f4fd;
+    --logo-cl: #4D5AE5;
+    --activ-cl: #404bbf;
+    --hero-cl: #FFFFFF;
+    /* Fonts */
+    --main-ft: Roboto, sans-serif;
+    --second-ft: Raleway, sans-serif;
+}
+
+/**
+  |============================
+  | Base style
+  |============================
+*/
+
+body {
+    font-family: var(--main-ft);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+    color: var(--main-txt-cl);
+    background-color: var(--background-cl);
+}
+
+/* reset start */
+
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+
+/**
+  |============================
+  | Header
+  |============================
+*/
+
+.logo-link {
+    font-family: var(--second-ft);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-cl);
+}
+
+.web-logo {
+    font-family: var(--second-ft);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--link-cl);
+}
+
+.header-link {
+    font-family: var(--main-ft);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--link-cl);
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--activ-cl);
+}
+
+.header-add-mail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: var(--main-txt-cl);
+}
+
+.header-add-mail:hover,
+.header-add-mail:focus {
+    color: var(--activ-cl);
+}
+
+/**
+  |============================
+  | Hero
+  |============================
+*/
+
+.hero-st {
+    background-color: var(--link-cl);
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--hero-cl);
+}
+
+.hero-btn {
+    background-color: var(--logo-cl);
+    font-family: var(--main-ft);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--hero-cl);
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    color: var(--hero-cl);
+    background-color: var(--activ-cl);
+}
+
+/**
+  |============================
+  | About
+  |============================
+*/
+
+.about-title-main {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--link-cl);
+}
+
+.about-tx {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/**
+  |============================
+  | Portfolio
+  |============================
+*/
+
+.portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--link-cl);
+    text-transform: capitalize;
+}
+
+/**
+  |============================
+  | Team
+  |============================
+*/
+
+.team {
+    background-color: var(--color-cloud);
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--link-cl);
+}
+
+.team-list-iteam {
+    background-color: var(--background-cl);
+}
+
+.team-name {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--link-cl);
+}
+
+.team-tx {
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+/**
+  |============================
+  | Footer
+  |============================
+*/
+
+.footer {
+    background-color: var(--link-cl);
+    color: var(--color-cloud);
+}
+.footer-logo {
+    color: var(--color-cloud);
+}
+
+.footer-tx {
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+
+/**
+  |============================
+  | Portfolio second page
+  |============================
+*/
+
+/* Filter section */
+.filter-bt {
+    font-family: var(--main-ft);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--logo-cl);
+    background-color: var(--color-cloud);
+    cursor: pointer;
+}
+
+.filter-bt:hover,
+.filter-bt:focus {
+    color: var(--background-cl);
+    background-color: var(--activ-cl);
+}
+
+/* Portfoilio section */
+
+.portfolio-title-two {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--link-cl);
+}
+
+.portfolio-tx-two {
+    color: var(--main-txt-cl);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
